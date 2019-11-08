@@ -1,16 +1,24 @@
-div p {
+body {
+
+	padding: 20px;
+	font-family: 'Lato', verdana;;
+}
+
+
+div > p {
 	
-	 border :2px solid ;
-	 padding: 8px;
-	 background: #fabada
+	 border :2px solid #fabada;
+	 padding: 5px;
+	 
 
 
 }
 .importante {
-	color: red;
+	font-weight: normal;
 
 
 }
-span {
+
+.importante ~ p {
 	color:red;
 }
